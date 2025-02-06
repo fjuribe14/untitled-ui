@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
-import { ImageAndComponent } from "../image-and-component";
+import { ImageAndComponent } from "@/components/image-and-component";
 
 export function TestimonialSection() {
   return (

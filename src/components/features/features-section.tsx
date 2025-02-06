@@ -1,7 +1,7 @@
 import React from "react";
 import { features_items } from "@/constants";
 import { FeatureSectionProps } from "@/types";
-import { FeaturesSectionComponent } from "../features-section-component";
+import { FeaturesSectionComponent } from "@/components/features-section-component";
 
 export function FeaturesSection() {
   const featureSectionProps: FeatureSectionProps = {

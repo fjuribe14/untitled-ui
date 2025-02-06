@@ -1,6 +1,6 @@
 import { FeatureSectionProps } from "@/types";
 import { integrations_items } from "@/constants";
-import { FeaturesSectionComponent } from "../features-section-component";
+import { FeaturesSectionComponent } from "@/components/features-section-component";
 
 export function IntegrationsSection() {
   const featureSectionProps: FeatureSectionProps = {

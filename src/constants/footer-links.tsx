@@ -1,6 +1,7 @@
 import Image from "next/image";
+import { FooterLink } from "@/types/footer-link";
 
-export const footer_links = [
+export const footer_links: FooterLink[] = [
   {
     label: "Product",
     children: [

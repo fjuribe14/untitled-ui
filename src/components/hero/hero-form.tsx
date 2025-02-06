@@ -1,13 +1,20 @@
 "use client";
 
 import { z } from "zod";
-import { Input } from "../ui/input";
-import { Button } from "../ui/button";
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { Form, FormItem, FormField, FormControl, FormMessage, FormDescription } from "../ui/form";
+import {
+  Form,
+  FormItem,
+  FormField,
+  FormControl,
+  FormMessage,
+  FormDescription,
+} from "@/components/ui/form";
 import { cn } from "@/lib/utils";
 import { CircleHelp } from "lucide-react";
+import { useForm } from "react-hook-form";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { zodResolver } from "@hookform/resolvers/zod";
 
 const FormSchema = z.object({
   email: z.string().min(2, {

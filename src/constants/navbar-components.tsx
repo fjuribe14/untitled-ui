@@ -1,4 +1,6 @@
-export const navbar_components: { title: string; href: string; description: string }[] = [
+import { NavbarComponent } from "@/types/navbar-component";
+
+export const navbar_components: NavbarComponent[] = [
   {
     title: "Alert Dialog",
     href: "/docs/primitives/alert-dialog",

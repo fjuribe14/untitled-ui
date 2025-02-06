@@ -1,4 +1,4 @@
-import { Padding } from "../padding";
+import { Padding } from "@/components/padding";
 import { FaqItemCollapse } from "./faq-item-collapse";
 
 export function FaqSection() {

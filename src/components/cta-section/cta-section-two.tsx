@@ -1,5 +1,5 @@
+import { Button } from "@/components/ui/button";
 import { ImageAndComponent } from "@/components/components";
-import { Button } from "../ui/button";
 
 export function CtaSectionTwo() {
   return (

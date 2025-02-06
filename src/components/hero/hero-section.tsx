@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Padding } from "../padding";
 import { HeroForm } from "./hero-form";
+import { Padding } from "@/components/padding";
 import { HeroChartArea } from "./hero-chart-area";
 
 export function HeroSection() {

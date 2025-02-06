@@ -1,5 +1,5 @@
 import React from "react";
-import { Padding } from "../padding";
+import { Padding } from "@/components/padding";
 
 export function MetricsSection() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { Padding } from "../padding";
-import { Button } from "../ui/button";
+import { Padding } from "@/components/padding";
+import { Button } from "@/components/ui/button";
 import { testimonial_carousel_items } from "@/constants";
 import { ArrowLeft, ArrowRight, Star } from "lucide-react";
 
