@@ -9,7 +9,7 @@ export function TestimonialSection() {
       <div className="flex flex-col">
         <div className="flex items-center gap-1 mb-6">
           {Array.from({ length: 5 }).map((_, index) => (
-            <Image alt="Star" width={20} height={20} key={index} src={"/star.svg"} />
+            <Image alt="Star" width={20} height={20} key={index} src={"/Star.svg"} />
           ))}
         </div>
 
