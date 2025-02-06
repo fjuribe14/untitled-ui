@@ -1,5 +1,5 @@
 import React from "react";
-import { Padding } from "../padding";
+import { Padding } from "@/components/padding";
 
 export function MetricsSection() {
   return (
@@ -12,7 +12,7 @@ export function MetricsSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  w-full h-[250px] bg-primary-50">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-x-5 gap-y-16 py-16 w-full lg:h-[250px] bg-primary-50">
           {[
             {
               label: "400+",

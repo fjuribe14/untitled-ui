@@ -2,7 +2,7 @@
 
 import React from "react";
 import { CircleMinus, CirclePlus } from "lucide-react";
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "../ui/collapsible";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 
 export function FaqItemCollapse({
   body,
